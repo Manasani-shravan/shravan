@@ -17,3 +17,5 @@ print(b.isalpha())
 print(a.upper())
 print(b.lower())
 print(b.endswith('loptou'))
+a = "red,green,blue,white"
+print(a.replace("blue","block"))
