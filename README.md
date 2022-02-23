@@ -19,3 +19,10 @@ print(b.lower())
 print(b.endswith('loptou'))
 a = "red,green,blue,white"
 print(a.replace("blue","block"))
+#sirings
+a = "red,green,blue,white"
+print(a.replace("blue","block"))
+a = "rohit,ms dhoni,virat,khohli,"
+print(a.split(","))
+a = " rohit, ms dhoni, virat kholi "
+print(a.strip())
