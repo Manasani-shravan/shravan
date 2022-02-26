@@ -74,7 +74,7 @@ print(x(3,4,5))
 thislist = ["apple","cherry","banana","shravan"]
 
 #lists concepts
-= 58
+a = 58
 b = 7
 if a > b:
     print("rakesh ")
