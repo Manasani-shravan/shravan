@@ -72,3 +72,61 @@ x = lambda a,b,c : a*b*c
 print(x(3,4,5))
 #lists
 thislist = ["apple","cherry","banana","shravan"]
+
+#lists concepts
+= 58
+b = 7
+if a > b:
+    print("rakesh ")
+elif a < b:
+    print("shravan")
+a = 400
+b = 1
+if a < b:
+    print("true")
+else:
+    print("flase")
+# if else functions practicing in pythin
+a = 12673
+b = 25236746
+if a>b:
+    ptint("true")
+else:
+    print("flase")
+a = 9
+b = 3
+if a > b:
+    print("true")
+else:
+    print("flase")
+a = "this is shravan"
+b = "this is not shravan"
+if "that" in a:
+    print("true")
+else:
+    print("shravan")'''
+a = "my favorite hero is superstar"
+b = "but super is not a normalman"
+if "normalman" in a:
+    print("shravan")
+else:
+    print ("rakesh")
+a = "this fan is not working"
+b = "this is not a fan"
+if("computre") in b:
+    prin
+b = a
+if a< b:
+    print("shravan")
+else:
+    print("false")
+
+this_is_computer = ["block","red","srh","rcb"]
+this_is_computer[3] = "shravan"
+print(this_is_computer)
+# sets datatypes
+r = lambda a,b,n,j,k : a-b+n*j**k
+print(r(3,4,5,6,7)t("true")
+else:
+    print("false")
+
