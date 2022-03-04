@@ -130,3 +130,48 @@ print(r(3,4,5,6,7)t("true")
 else:
     print("false")
 
+a = "malylam"
+b = a[::-1]
+print(b)
+if a == b:
+    print("t")
+else:
+    print("f")
+s = "shravan"
+r = "navarhs"
+if s[::-1]==r:
+    print("t")
+else:
+    print("f")
+#
+shravan = "shravan"
+rakesh = shravan[::-1]
+if shravan == rakesh:
+    print("t")
+else:
+    print("f")
+a = b
+b = a
+if a == b:
+    print("T")
+else:
+    print("F")
+thisdics = {"brand":"rolls roice",
+            "colore":"block",
+            "model":"sh101",
+            }
+print(thisdics)
+thisdics["model"]="rk101"
+print(thisdics)
+thisdics["year"]=1999
+print(thisdics)
+thisdics.pop("brand")
+print(thisdics)
+thisdics.pop("colore")
+print(thisdics)
+thisdics["brand"]="ferari"
+print(thisdics)
+thisdics["colore"]="white"
+print(thisdics)
+
+
