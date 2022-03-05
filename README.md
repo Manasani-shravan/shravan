@@ -177,3 +177,174 @@ thisdics["colore"]="white"
 print(thisdics)
 
 
+#
+a = "malylam"
+b = a[::-1]
+print(b)
+if a == b:
+    print("t")
+else:
+    print("f")
+s = "shravan"
+r = "navarhs"
+if s[::-1]==r:
+    print("t")
+else:
+    print("f")
+#
+shravan = "shravan"
+rakesh = shravan[::-1]
+if shravan == rakesh:
+    print("t")
+else:
+    print("f")
+a = b
+b = a
+if a == b:
+    print("T")
+else:
+    print("F")
+thisdics = {"brand":"rolls roice",
+            "colore":"block",
+            "model":"sh101",
+            }
+print(thisdics)
+thisdics["model"]="rk101"
+print(thisdics)
+thisdics["year"]=1999
+print(thisdics)
+thisdics.pop("brand")
+print(thisdics)
+thisdics.pop("colore")
+print(thisdics)
+thisdics["brand"]="ferari"
+print(thisdics)
+thisdics["colore"]="white"
+print(thisdics)
+
+# basic program for adding
+shravan = "he is super man"
+rakesh = "he is spider man"
+sum = shravan+rakesh
+print("sum {0} and {1} is {2}".format(shravan,rakesh,sum))
+d = 123456789
+g = 987654321
+sum = d*g
+print("sum {0} and {1} is {2}".format(d,g,sum))
+r = "shravan"
+f = 12
+d =r+str(f)
+print("d {0} and {1} is {2}" .format(r,f,d))
+#range
+def function():
+    a = [3,4,5,6,7,8,9,10,11,12,13,14,15]
+    print(a)
+function()
+a = 24
+b = 74
+c = a-b
+print("c {0} and {1} is {2}" .format(a,b,c))
+#functions
+danush = 23
+vamshi = 248
+if danush==vamshi:
+   print("t")
+else:
+    print("f")
+# range
+a = range(1,37)
+print(set(a))
+#loops
+a = 1
+while a < 12:
+    a+= 2
+    if a == 8:
+        break
+    print(a)
+i = 47
+while i > 32:
+    i-= 1
+    if i == 40:
+        continue
+    print(i)
+y = ["red","green","white","pink"]
+for x in y:
+    print(x)
+shravan = ["think","like","intelligent","not","like","rakesh"]
+for s in shravan:
+    print(s)'''
+rakesh = ["intelligent","medhavi","genious","knowledge"]
+for x in rakesh:
+    print(x)
+a = 99
+while a < 120:
+    a+= 1
+    if a == 111:
+        break
+    print(a)
+a = 354
+b = 675
+c = a*b
+print("c {0} and a {1} is {2}".format(a,b,c))
+fiyaz = {"colore:white",
+         "behaviour:good",
+         "thinking:like genious"}
+print(fiyaz)
+
+
+shravan = 100
+while shravan > 0:
+    shravan-= 1
+    if shravan == 77:
+        break
+    print(shravan)
+gh = ["ch","dh","hh","jh","kh"]
+for s in gh:
+    print(s)
+my_list = ["rgv","mahesh babu","shravan","sithara"]
+print(my_list[:2])
+a = 345
+while a < 435:
+    a+= 2
+    if a == 435:
+        break
+    print(a)
+bulding = ["steps","rooms","chairs","computers","laptops"]
+for x in bulding:
+    print(x)
+a = 23
+while a > 13:
+    a-= 1
+    if a == 17:
+        break
+    print(a)
+q = 7
+p = 7
+if p > q:
+    print("true")
+elif p==q:
+    print("equal")
+else:
+    print("flase")
+a = 56
+while a < 100:
+    a+= 1
+    if a == 74:
+        continue
+    print(a)
+a =[3,4,5,6,7,8]
+for x in a:
+    if x == 6:
+        break
+    print(x)
+s = [345,346,347,348,349,350]
+for x in s:
+    if x == 347:
+        continue
+    print(x)
+g = 234
+while g < 500:
+    g+= 1
+    if g == 333:
+       break
+    print(g)
