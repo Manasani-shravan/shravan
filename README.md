@@ -1,10 +1,12 @@
 # shravan
-this is my loptop
+# this is my loptop
 a = "this is my bolck loptop"
 b = "my best friend is my knowledge "
 print(a.capitalize())
 print(a.casefold())
 print(a.center(32))
+
+
 print(a.count('s'))
 print(a.encode())
 print(a.endswith('my'))
