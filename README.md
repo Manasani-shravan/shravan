@@ -1,5 +1,5 @@
 # shravan
-this is my loptop
+# this is my loptop
 a = "this is my bolck loptop"
 b = "my best friend is my knowledge "
 print(a.capitalize())
