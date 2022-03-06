@@ -348,3 +348,52 @@ while g < 500:
     if g == 333:
        break
     print(g)
+
+shravan = [1,2,3,46,57,6,7,8,9]
+shravan.sort()
+print(shravan)
+raju = [34,56,7,454,345,5,6]
+raju.sort()
+print(raju)
+
+
+def Pattern(line):
+    pat = "%"
+    for i in range(0, line):
+        for j in range(0, line):
+            if ((j == 1 and i != 0 and i != line - 1) or ((i == 0 or
+                                                           i == line - 1) and j > 1 and j < line - 2) or (
+                    i == ((line - 1) / 2)
+                    and j > line - 5 and j < line - 1) or (j == line - 2 and
+                                                           i != 0 and i != line - 1 and i >= ((line - 1) / 2))):
+                pat = pat + "%"
+            else:
+                pat = pat + " "
+        pat = pat + "\n"
+    return pat
+
+
+# Driver Code
+line = 7
+print(Pattern(line))
+
+n = 6
+for i in range(0,n):
+    for j in range(i,n):
+        print("* ",end=" ")
+    print()'''
+rows = 8
+k = 2*rows - 4
+for i in range(0,rows):
+    for j in range(i+1,k):
+        print(end=" ")
+    k = k - 4
+    for j in range(0, i+1):
+        print("1 ", end=" ")
+    print(" ")
+
+shravan = [1,2,3,46,57,6,7,8,9]
+shravan.sort()
+print(shravan)
+rows = int(input ("Enter the number of rows"))
+k = (2*rows)-2
