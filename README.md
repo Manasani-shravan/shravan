@@ -397,3 +397,77 @@ shravan.sort()
 print(shravan)
 rows = int(input ("Enter the number of rows"))
 k = (2*rows)-2
+
+
+def Pattern(line):
+    pat = "%"
+    for i in range(0, line):
+        for j in range(0, line):
+            if ((j == 1 and i != 0 and i != line - 1) or ((i == 0 or
+                                                           i == line - 1) and j > 1 and j < line - 2) or (
+                    i == ((line - 1) / 2)
+                    and j > line - 5 and j < line - 1) or (j == line - 2 and
+                                                           i != 0 and i != line - 1 and i >= ((line - 1) / 2))):
+                pat = pat + "%"
+            else:
+                pat = pat + " "
+        pat = pat + "\n"
+    return pat
+
+
+# Driver Code
+line = 7
+print(Pattern(line))
+
+n = 6
+for i in range(0,n):
+    for j in range(i,n):
+        print("* ",end=" ")
+    print()
+rows = 6
+k = 2*rows - 2
+for i in range(0,rows):
+    for j in range(i-1,k):
+        print(end=" ")
+    for j in range(0, i-1):
+        print("1 ", end=" ")
+    print(" ")
+rows = 10
+k = 3*rows-3
+for i in  range (1,rows):
+    for j in range (i+1,k):
+        print(end=" ")
+    for j in range (1,i+1):
+        print("2 ",end=" ")
+    print(" ")
+shh = [1,2,3,4]
+ans = sum(shh)
+print("print the sum of " ,ans)
+#s letter program
+for row in range (1,10):
+    for col in range (1,9):
+        if ((col == 1 or col == 8) and row!=1) and (col==1 or  col==4 and(col>1 or col>8)):
+             print("$",end=" ")
+        else:
+             print(end=" ")
+    print()'''
+#oops conncept
+class person:
+    def __init__(self,name,age,weigth):
+     self.name = name
+     self.age = age
+     self.weigth = weigth
+    def myfunction(self):
+        print(self.name,self.age,self.weigth)
+p1 = person("shravan",32,43)
+p1.myfunction()
+#
+class bulding:
+    def __init__(self,name,flores,rooms,):
+        self.name = name
+        self.flores = flores
+        self.rooms = rooms
+    def myfunction(self):
+        print(self.name,self.flores,self.rooms,)
+p1 = person("bk engineerings",5,35)
+p1.myfunction()
